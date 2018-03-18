@@ -15,3 +15,64 @@ time, mark, audio, video {
     padding: 0;
     border: 0;
 }
+
+.blue{
+    color: #4bcaff;
+}
+
+
+header{
+    background-image: url("./images/header.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35vh;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+nav{
+    background-color: #475158;
+    opacity: 0.85;
+    font-family: "Segoe UI", Sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 15vh;
+}
+
+h1{
+    color: white;
+}
+
+nav > ul{
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+li.home{
+    border: #4bcaff solid;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+li{
+    padding-top: 5px;
+    width: fit-content;
+}
+
+header > blockquote{
+    margin-top: 6vh;
+    color: white;
+    font-family: "Segoe UI", Sans-serif;
+    line-height: 25px;
+}
+span.bg-grey{
+    background-color: #475158;
+    opacity: 0.85;
+}
