@@ -21,6 +21,10 @@ time, mark, audio, video {
     color: white;
 }
 
+.lighter{
+    font-weight: lighter;
+}
+
 .blue {
     color: #4bcaff;
 }
@@ -54,6 +58,10 @@ nav {
 
 h1 {
     color: white;
+}
+
+h2{
+    font-weight: lighter;margin-bottom: 4vh;
 }
 
 nav > ul {
@@ -92,10 +100,6 @@ span.bg-grey {
     opacity: 0.85;
 }
 
-section.service > h2 {
-    margin-bottom: 4vh;
-}
-
 section.service {
     background-color: #4bcaff;
     padding: 10px;
@@ -130,10 +134,6 @@ section.portfolio > ul {
     flex-wrap: wrap;
 }
 
-section.portfolio > h2 {
-    margin-bottom: 4vh;
-}
-
 div.imgs-pf{
     display: grid;
     justify-items: center;
@@ -141,4 +141,21 @@ div.imgs-pf{
 
 img.img-pf{
     margin-bottom: 5vh;
+}
+
+section.jds{
+    padding: 10px;
+    background-color: #515f67;
+}
+
+button.jsd{
+    margin: 2vh 0 2vh;
+    padding: 7px 25px 7px 25px;
+    background-color: #515f67;
+    border: black solid;
+    color: black;
+}
+
+img.video{
+    width: 95vw;
 }
