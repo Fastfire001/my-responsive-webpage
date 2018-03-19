@@ -14,14 +14,26 @@ time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: "Segoe UI", Sans-serif;
 }
 
-.blue{
+.white {
+    color: white;
+}
+
+.blue {
     color: #4bcaff;
 }
 
+.underline {
+    text-decoration: underline;
+}
 
-header{
+.hide{
+    display: none;
+}
+
+header {
     background-image: url("./images/header.png");
     background-size: cover;
     background-position: center;
@@ -32,20 +44,19 @@ header{
     text-align: center;
 }
 
-nav{
+nav {
     background-color: #475158;
     opacity: 0.85;
-    font-family: "Segoe UI", Sans-serif;
     display: flex;
     flex-direction: column;
     height: 15vh;
 }
 
-h1{
+h1 {
     color: white;
 }
 
-nav > ul{
+nav > ul {
     color: white;
     list-style: none;
     display: flex;
@@ -55,24 +66,79 @@ nav > ul{
     flex-wrap: wrap;
 }
 
-li.home{
+li.home {
     border: #4bcaff solid;
     border-radius: 3px;
-    padding: 5px;
+    padding: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
 }
 
-li{
-    padding-top: 5px;
+li {
+    padding: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
     width: fit-content;
 }
 
-header > blockquote{
+header > blockquote {
     margin-top: 6vh;
     color: white;
-    font-family: "Segoe UI", Sans-serif;
     line-height: 25px;
 }
-span.bg-grey{
+
+span.bg-grey {
     background-color: #475158;
     opacity: 0.85;
+}
+
+section.service > h2 {
+    margin-bottom: 4vh;
+}
+
+section.service {
+    background-color: #4bcaff;
+    padding: 10px;
+}
+
+div.service > div.content {
+    display: flex;
+    flex-direction: column;
+}
+
+h3.service {
+    display: inline;
+}
+
+p.service {
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    font-size: 80%;
+}
+
+section.portfolio {
+    padding: 10px;
+    color: #515f67;
+}
+
+section.portfolio > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+section.portfolio > h2 {
+    margin-bottom: 4vh;
+}
+
+div.imgs-pf{
+    display: grid;
+    justify-items: center;
+}
+
+img.img-pf{
+    margin-bottom: 5vh;
 }
