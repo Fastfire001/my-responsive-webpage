@@ -37,6 +37,10 @@ time, mark, audio, video {
     display: none;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 header {
     background-image: url("./images/header.png");
     background-size: cover;
@@ -159,3 +163,15 @@ button.jsd{
 img.video{
     width: 95vw;
 }
+
+section.twitter{
+    background-color: #4bcaff;
+    padding: 10px;
+}
+
+div.twitter-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
