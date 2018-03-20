@@ -175,3 +175,33 @@ div.twitter-header{
     justify-content: space-between;
 }
 
+section.who-is{
+    background-image: url("./images/bg_who_is_john_doe.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+img.icon-who-is{
+    border: white solid;
+    padding: 10px;
+}
+
+article.who-is{
+    display: grid;
+}
+
+article.who-is > div.part2{
+    margin-top: 4vh;
+}
+
+div.part2 > p{
+    margin-bottom: 4vh;
+}
+
+img.icon-who-is{
+    margin-right: 4vw;
+}
+
+
