@@ -50,9 +50,6 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 35vh;
-    margin: auto;
-    width: 100%;
     text-align: center;
 }
 
@@ -78,7 +75,7 @@ nav > ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-bottom: 10px;
+    margin-bottom: 2vh;
     flex-wrap: wrap;
 }
 
@@ -99,6 +96,7 @@ li {
 
 header > blockquote {
     margin-top: 6vh;
+    padding-bottom: 6vh;
     color: white;
     line-height: 25px;
 }
@@ -110,7 +108,7 @@ span.bg-grey {
 
 section.service {
     background-color: #4bcaff;
-    padding: 10px;
+    padding: 2vw;
 }
 
 div.service > div.content {
@@ -129,7 +127,7 @@ p.service {
 }
 
 section.portfolio {
-    padding: 10px;
+    padding: 2vw;
     color: #515f67;
 }
 
@@ -138,7 +136,7 @@ section.portfolio > ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-bottom: 10px;
+    margin-bottom: 2vh;
     flex-wrap: wrap;
 }
 
@@ -152,7 +150,7 @@ img.img-pf{
 }
 
 section.jds{
-    padding: 10px;
+    padding: 2vw;
     background-color: #515f67;
 }
 
@@ -170,7 +168,7 @@ img.video{
 
 section.twitter{
     background-color: #4bcaff;
-    padding: 10px;
+    padding: 2vw;
 }
 
 div.twitter-header{
@@ -184,12 +182,12 @@ section.who-is{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 10px;
+    padding: 2vw;
 }
 
 img.icon-who-is{
     border: white solid;
-    padding: 10px;
+    padding: 2vw;
 }
 
 article.who-is{
@@ -209,11 +207,42 @@ img.icon-who-is{
 }
 
 section.testimonials{
-    padding: 10px;
+    padding: 2vw;
 }
 
 p.w-w{
     font-size: 75%;
 }
 
+section.contact{
+    background-image: url("./images/bg-contact.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2vw;
+}
 
+textarea{
+    width: 94vw;
+}
+
+p.contact{
+    margin-bottom: 2vh;
+}
+
+input.send{
+    background-color: #4bcaff;
+    border: #4bcaff;
+    padding: 10px 50px 10px 50px;
+    margin-top: 2vh;
+}
+
+input{
+    margin-bottom: 2vh;
+}
+
+input[type="email"], input[type="text"], textarea{
+    background-color: unset;
+    border: white solid;
+    border-width: 1px;
+}
