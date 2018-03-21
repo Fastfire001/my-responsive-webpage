@@ -41,6 +41,10 @@ time, mark, audio, video {
     font-weight: bold;
 }
 
+.grey{
+    color: #515f67;
+}
+
 header {
     background-image: url("./images/header.png");
     background-size: cover;
@@ -202,6 +206,14 @@ div.part2 > p{
 
 img.icon-who-is{
     margin-right: 4vw;
+}
+
+section.testimonials{
+    padding: 10px;
+}
+
+p.w-w{
+    font-size: 75%;
 }
 
 
