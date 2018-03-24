@@ -139,6 +139,8 @@ section.portfolio > ul {
     justify-content: space-evenly;
     margin-bottom: 2vh;
     flex-wrap: wrap;
+    font-weight: 500;
+    height: fit-content;
 }
 
 div.imgs-pf {
@@ -211,6 +213,16 @@ section.testimonials {
     padding: 2vw;
 }
 
+div.testimonials-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.testimonials-header > img{
+    height: 5vh;
+}
+
 p.w-w {
     font-size: 75%;
 }
@@ -264,6 +276,12 @@ footer > ul {
 
 p.copyright {
     text-align: center;
+}
+
+@media (max-width: 765px) and (orientation: landscape) {
+    div.imgs-pf{
+        grid-template-columns: repeat(2, 1fr)
+    }
 }
 
 @media (min-width: 765px) {
@@ -326,6 +344,10 @@ p.copyright {
         font-size: 125%;
     }
 
+    div.testimonials-header > img {
+        height: 3vh;
+    }
+
     p.w-w{
         font-size: 115%;
     }
@@ -336,5 +358,177 @@ p.copyright {
 
     input.send{
         font-size: 130%;
+    }
+
+    div.imgs-pf {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 765px) and (orientation: landscape) {
+
+    div.imgs-pf {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media screen and (min-width: 1025px){
+
+    h2{
+        font-size: 120%;
+    }
+
+    li{
+        padding-left: 2vw;
+    }
+
+    header > nav{
+        font-size: 90%;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 10vw 0 10vw;
+        align-items: center;
+        height: 15vh;
+    }
+
+    header{
+        height: 50vh;
+    }
+
+    header > blockquote{
+        margin-top: 12vh;
+    }
+
+    section.service{
+        padding: 5vh 15vw 5vh 15vw;
+    }
+
+    section.service > div.content{
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 2vw;
+    }
+
+    article > img.service{
+        height: 4vh;
+    }
+
+    h3.service {
+        font-size: 110%;
+    }
+
+    p.service {
+        font-size: 80%;
+    }
+
+    section.portfolio{
+        padding: 5vh 15vw 5vh 15vw;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 3vh;
+    }
+
+    div.imgs-pf {
+        grid-template-columns: repeat(4, 1fr);
+        grid-column: 1/3;
+    }
+
+    img.img-pf {
+        width: 15vw;
+    }
+
+    section.portfolio > ul {
+        font-size: 100%;
+        width: max-content;
+    }
+
+    section.jds{
+        padding: 5vh 15vw 5vh 15vw;
+    }
+
+    section.jds > article{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    img.video {
+        width: 30vw;
+        grid-column: 2;
+        grid-row: 1/4;
+        margin: auto;
+    }
+    article.jds > p {
+        font-size: 87%;
+        margin-bottom: 2vh;
+    }
+
+    button.jsd{
+        width: 15vw;
+    }
+
+    section.twitter{
+        padding: 5vh 15vw 5vh 15vw;
+    }
+
+    section.twitter > p {
+        font-size: 140%;
+        line-height: 5vh;
+    }
+
+    section.who-is{
+        padding: 5vh 15vw 5vh 15vw;
+    }
+
+    article.who-is {
+        font-size: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    article.who-is > div.part2 {
+        margin: 0;
+    }
+
+    img.icon-who-is {
+        margin-right: 1vw;
+    }
+
+    section.testimonials{
+        padding: 5vh 15vw 5vh 15vw;
+    }
+
+    section.testimonials > blockquote{
+        line-height: 5vh;
+    }
+
+    section.contact{
+        padding: 5vh 15vw 5vh 15vw;
+    }
+
+    form > div.part1{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    p.contact{
+        width: 35vw;
+    }
+
+    div.form{
+        width: 35vw;
+    }
+
+    textarea {
+        width: 70vw;
+    }
+
+    input[type="text"], input[type="email"]{
+        width: 30vw;
+    }
+
+    footer{
+        justify-content: space-between;
+        padding: 5vh 15vw 5vh 15vw;
+        display: flex;
     }
 }
