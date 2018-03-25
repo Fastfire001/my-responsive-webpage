@@ -8,15 +8,15 @@
     <script src="./assets/script.js"></script>
 </head>
 <body>
-<header>
+<header id="a-home">
     <nav>
         <h1>BLU<span class="blue">E</span>ASY</h1>
         <ul>
-            <li class="blue home">HOME</li>
-            <li>SERVICES</li>
-            <li>FEATURES</li>
-            <li>PORTFOLIO</li>
-            <li>CONTACT</li>
+            <li class="blue home"><a href="#a-home">HOME</a></li>
+            <li><a href="#a-services">SERVICES</a></li>
+            <li><a href="#a-features">FEATURES</a></li>
+            <li><a href="#a-portfolio">PORTFOLIO</a></li>
+            <li><a href="#a-contact">CONTACT</a></li>
         </ul>
     </nav>
     <blockquote>
@@ -25,7 +25,7 @@
     </blockquote>
 </header>
 <main>
-    <section class="service">
+    <section class="service" id="a-services">
         <h2 class="white"><span class="underline">SER</span>VICES</h2>
         <div class="content">
             <article class="coffee">
@@ -58,14 +58,14 @@
             </article>
         </div>
     </section>
-    <section class="portfolio">
+    <section class="portfolio" id="a-portfolio">
         <h2><span class="underline">POR</span>FOLIO</h2>
         <ul>
-            <li class="blue home btn-pf-all">ALL</li>
-            <li class="btn-pf-panoramas">PANORAMAS</li>
-            <li class="btn-pf-portraits">PORTRAITS</li>
-            <li class="btn-pf-macro">MACRO</li>
-            <li class="btn-pf-journal">JOURNAL</li>
+            <li class="home btn-pf-all selected"><button>ALL</button></li>
+            <li class="btn-pf-panoramas"><button>PANORAMAS</button></li>
+            <li class="btn-pf-portraits"><button>PORTRAITS</button></li>
+            <li class="btn-pf-macro"><button>MACRO</button></li>
+            <li class="btn-pf-journal"><button>JOURNAL</button></li>
         </ul>
         <div class="imgs-pf">
             <img class="img-pf macro" src="./assets/images/portfolio_photo1.png"
@@ -159,7 +159,7 @@
         <br>
         <p class="blue w-w">-Walter White</p>
     </section>
-    <section class="contact white">
+    <section class="contact white" id="a-contact">
         <h2><span class="underline">CO</span>NTACT</h2>
         <form>
             <div class="part1">
